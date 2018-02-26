@@ -4,7 +4,7 @@ public class TriangleExercises {
 
     public static void main(String[] args) {
 
-        drawAVerticalLine(3);
+        drawARightTriangle(5);
     }
 
     // Easiest exercise ever
@@ -26,6 +26,17 @@ public class TriangleExercises {
         System.out.println("Draw A Vertical Line");
         for (int i = 0; i < n; i++) {
             System.out.println("*");
+        }
+    }
+
+    // Draw a right triangle
+    public static void drawARightTriangle( int n ) {
+        System.out.println("Draw A Right Triangle");
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 
