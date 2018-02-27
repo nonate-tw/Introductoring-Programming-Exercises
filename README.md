@@ -1,6 +1,6 @@
-##Introductory programming exercises
+## Introductory programming exercises
 
-####-Triangle Exercises
-####-Diamond Exercises
-####-FizzBuzz Exercise
-####-Prime Factors Exercise
+* Triangle Exercises
+* Diamond Exercises
+* FizzBuzz Exercise
+* Prime Factors Exercise
