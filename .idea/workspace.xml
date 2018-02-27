@@ -27,11 +27,11 @@
       <file leaf-file-name="DiamondExercises.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DiamondExercises/DiamondExercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="875">
+              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -344,11 +344,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiamondExercises/DiamondExercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="875">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
             <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
