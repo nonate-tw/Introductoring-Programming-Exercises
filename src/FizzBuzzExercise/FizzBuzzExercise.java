@@ -6,8 +6,7 @@ public class FizzBuzzExercise {
         fizzBuzz();
     }
 
-    // FizzBuzz
-    public static void fizzBuzz() {
+    private static void fizzBuzz() {
 
         for (int i = 1; i <= 100; i++) {
             if ((i % 3 == 0) && (i % 5 == 0)) {

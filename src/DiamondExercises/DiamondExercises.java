@@ -3,77 +3,78 @@ package DiamondExercises;
 public class DiamondExercises {
 
     public static void main(String[] args) {
-        diamondWithName(3);
+        isoscelesTriangle(3);
+        diamond(5);
+        diamondWithName(5);
     }
 
-    // Isosceles Triangle
-    public static void isoscelesTriangle(int n) {
-        int b = n;
-        int extra = 0;
-        for(int count = 1; count <= n; ++count){
-            for(int xcount = 1; xcount < b; ++xcount){
+    private static void isoscelesTriangle(int lines) {
+        int blankSpaces = lines;
+        int extraDots = 0;
+
+
+        for (int count = 1; count <= lines; ++count) {
+            for (int xcount = 1; xcount < blankSpaces; ++xcount) {
                 System.out.print(" ");
             }
-            for(int tcount =1; tcount <= count + extra; ++tcount){
+            for (int tcount = 1; tcount <= count + extraDots; ++tcount) {
                 System.out.print("*");
             }
             System.out.println("");
-            b--;
-            extra++;
+            blankSpaces--;
+            extraDots++;
         }
     }
 
-    // Diamond
-    public static void diamond(int n) {
+    private static void diamond(int lines) {
         System.out.println("Diamond");
 
-        isoscelesTriangle(n);
+        isoscelesTriangle(lines);
 
-        int b = n-1;
-        int extra = n-1;
-        for(int count = n-1; count >= 1; --count){
-            for(int xcount = 1; xcount < b; ++xcount){
+        int blankSpace = lines - 1;
+        int extraDots = lines - 1;
+        for (int count = lines - 1; count >= 1; --count) {
+            for (int xcount = lines - 1; xcount >= blankSpace; --xcount) {
                 System.out.print(" ");
             }
-            for(int tcount = 1; tcount < count+extra; ++tcount){
+            for (int tcount = 1; tcount < count + extraDots; ++tcount) {
                 System.out.print("*");
             }
             System.out.println("");
-            b++;
-            extra--;
+            blankSpace--;
+            extraDots--;
         }
     }
 
-    // Diamond with name
-    public static void diamondWithName(int n) {
-        int b = n;
-        int extra = 0;
-        for(int count = 1; count <= n-1; ++count){
-            for(int xcount = 1; xcount < b; ++xcount){
+    private static void diamondWithName(int lines) {
+        int blankSpace = lines;
+        int extraDots = 0;
+        for (int count = 1; count <= lines - 1; ++count) {
+            for (int xcount = 1; xcount < blankSpace; ++xcount) {
                 System.out.print(" ");
             }
-            for(int tcount =1; tcount <= count + extra; ++tcount){
+            for (int tcount = 1; tcount <= count + extraDots; ++tcount) {
                 System.out.print("*");
             }
             System.out.println("");
-            b--;
-            extra++;
+            blankSpace--;
+            extraDots++;
         }
 
-        System.out.println("Nicolás");
+        System.out.println(" Nicolás");
 
-        b = n-1;
-        extra = n-1;
-        for(int count = n-1; count >= 1; --count){
-            for(int xcount = 1; xcount < b; ++xcount){
+        blankSpace = lines - 1;
+        extraDots = lines - 1;
+        for (int count = lines - 1; count >= 1; --count) {
+            for (int xcount = lines - 1; xcount >= blankSpace; --xcount) {
                 System.out.print(" ");
             }
-            for(int tcount = 1; tcount < count+extra; ++tcount){
+            for (int tcount = 1; tcount < count + extraDots; ++tcount) {
                 System.out.print("*");
             }
             System.out.println("");
-            b++;
-            extra--;
+            blankSpace--;
+            extraDots--;
         }
     }
 }

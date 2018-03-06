@@ -3,18 +3,17 @@ package PrimeFactorsExercise;
 public class PrimeFactorsExercise {
 
     public static void main(String[] args) {
-        generate(30);
+        primeFactors(30);
     }
 
-    // Prime Factors
-    public static void generate(int n) {
+    private static void primeFactors(int number) {
         String out = "";
 
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= number; i++) {
 
-            while (n % i == 0){
+            while (number % i == 0){
                 out += i + ",";
-                n /= i;
+                number /= i;
             }
         }
 
